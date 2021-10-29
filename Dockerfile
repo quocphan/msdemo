@@ -5,7 +5,7 @@ LABEL maintainer="quoc.phan@ericsson.com"
 EXPOSE 8085/tcp
 
 ARG PROJECT_DIR=msdemo
-ARG PROJECT_BUILD_FINAL_NAME=demo-0.0.1-SNAPSHOT
+ARG PROJECT_BUILD_FINAL_NAME=msdemo-0.0.1-SNAPSHOT
 
 RUN mkdir -p /opt/app/${PROJECT_DIR}/config
 
